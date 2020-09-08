@@ -7,8 +7,6 @@ brew "anyenv"
 brew "circleci"
 # Console Matrix
 brew "cmatrix"
-# Dependency manager for Cocoa projects
-brew "cocoapods"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -27,10 +25,14 @@ brew "peco"
 brew "tig"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Watch files and take action when they change
+brew "watchman"
 # JavaScript package manager
 brew "yarn"
 # General-purpose lossless data-compression library
 brew "zlib"
+cask "adoptopenjdk"
+cask "android-studio"
 cask "appcleaner"
 cask "cmd-eikana"
 cask "cyberduck"
@@ -66,3 +68,4 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
