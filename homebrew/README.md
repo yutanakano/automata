@@ -1,5 +1,11 @@
 # homebrew
 
+## よく使うコマンド
+
+- Brewfileに追加
+
+`brew bundle dump --force --describe --file ~/Repository/github.com/yutanakano/automata/homebrew/.Brewfile`
+
 ## コマンドオプション
 
 ### `brew bundle` :リストファイルから一括インストール
@@ -12,8 +18,6 @@ $ brew bundle
 - `--global` ホームディレクトリのリストファイル`~/.Brewfile`を使用
 
 - `--file 'path/filename'` リストファイルを指定
-
-  
 
 ### `dump` :インストールリストファイル作成
 
