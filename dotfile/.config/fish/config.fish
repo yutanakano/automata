@@ -7,6 +7,9 @@ eval (direnv hook fish)
 #fisherパッケージdecors/fish-ghqの設定
 set GHQ_SELECTOR peco
 
+# flutterのpathを通す
+set -x PATH $HOME/Repository/github.com/flutter/flutter/bin $PATH
+
 #-- AndroidStudioのpathを通す
 set --export ANDROID $HOME/Library/Android;
 set --export ANDROID_HOME $ANDROID/sdk;
