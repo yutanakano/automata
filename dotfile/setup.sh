@@ -15,5 +15,7 @@ ln -nfs $scriptPath/.vuerc ~/.vuerc
 ln -nfs $scriptPath/.vimrc ~/.vimrc
 # .npmrc
 ln -nfs $scriptPath/.npmrc ~/.npmrc
+# .gitmoji
+ln -nfs $scriptPath/.gitmoji/gitmojis.json ~/.gitmoji
 
 echo "Done."
