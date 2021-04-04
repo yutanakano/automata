@@ -12,10 +12,10 @@ sh shell/fish/plugin.sh
 
 # anyenv
 sh anyenv/init.sh
-sh anyenv/setup.sh
+sh anyenv/update.sh
 
 # dotfile
-sh dotfile/setup.sh
+sh dotfile/update.sh
 
 # shellを再起動
 exec fish -l
