@@ -1,5 +1,7 @@
+tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 # All in one for **env
 brew "anyenv"
@@ -32,29 +34,45 @@ brew "yarn"
 # General-purpose lossless data-compression library
 brew "zlib"
 cask "adoptopenjdk"
+# Tools for building Android applications
 cask "android-studio"
-cask "appcleaner"
+# Clipboard extension app
+cask "clipy"
 cask "cmd-eikana"
-cask "cyberduck"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
-cask "evernote"
 cask "figma"
+# Web browser
 cask "firefox"
+# Shows hidden files and folders and switches their visibility in Finder
 cask "funter"
+# Web browser
 cask "google-chrome"
 cask "google-japanese-ime"
 cask "gyazo"
+# Terminal built on web technologies
 cask "hyper"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
 cask "jetbrains-toolbox"
+# Interface for reading and syncing eBooks
 cask "kindle"
+# Visual user interface for Docker Container management
 cask "kitematic"
 cask "psequel"
+# MySQL/MariaDB database management platform
 cask "sequel-pro"
 cask "teamsql"
+# Development environment
 cask "vagrant"
+# Free and open-source hosted hypervisor for x86 virtualization
 cask "virtualbox"
+# Open-source code editor
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "Alfred", id: 405843582
